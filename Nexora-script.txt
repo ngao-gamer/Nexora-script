@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=88534186493667",
+       Image = "http://www.roblox.com/asset/?id=117324909428138",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -61,9 +61,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/re
   })
 
     AddButton(Tab1o, {
-     Name = "quantum Hub",
+     Name = "Nexora Hub",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ngao-gamer/Nexora-script/refs/heads/main/Nexora-script.txt"))()
   end
   })
 
