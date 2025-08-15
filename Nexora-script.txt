@@ -63,7 +63,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/re
     AddButton(Tab1o, {
      Name = "Nexora Hub",
     Callback = function()
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ngao-gamer/Nexora-script/refs/heads/main/Nexora-script.txt"))()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ngao-gamer/Nexora-hub/refs/heads/main/Nexora.txt"))()
   end
   })
 
