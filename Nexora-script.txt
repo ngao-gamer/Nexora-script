@@ -30,8 +30,10 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Script Farm"})
-     local Tab2o = MakeTab({Name = "comming soon"})
+     local Tab1o = MakeTab({Name = "Script blox fruit"})
+     local Tab2o = MakeTab({Name = "script the strongest battleground"})
+     local Tab3o = MakeTab({Name = "script Grow A Garden"})
+     local Tab4o = MakeTab({Name = "script 99 In The Forest"})
 
 ------- BUTTON
     
@@ -47,7 +49,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
   end
   })
     AddButton(Tab1o, {
-     Name = "soul Hub",
+     Name = "soul Hub(get key)",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GoblinKun009/Script/refs/heads/main/soulhub", true))()
   end
@@ -78,5 +80,117 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits
      Name = "Vxeze Hub",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/VxezeHubMain"))()
+  end
+  })
+
+    AddButton(Tab1o, {
+     Name = "Maru Hub(fremium)",
+    Callback = function()
+getgenv().Team = "Marines"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
+  end
+  })
+
+    AddButton(Tab1o, {
+     Name = "Bananna Hub(freeium)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
+  end
+  })
+
+    AddButton(Tab1o, {
+     Name = "TSOU Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
+  end
+  })
+
+    AddButton(Tab1o, {
+     Name = "Blue X Hub(farm ui)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+  })
+
+    AddButton(Tab1o, {
+     Name = "Zenith Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/ZenithHub/refs/heads/main/Loader"))()
+  end
+  })
+
+    AddButton(Tab1o, {
+     Name = "Ronix Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/513ccdb3ae8a61d4d7698fc337e5256d.lua"))()
+  end
+  })
+
+    AddButton(Tab1o, {
+     Name = "W-Azure Hub",
+    Callback = function()
+getgenv().Team = "Marines"
+getgenv().AutoLoad = false --Will Load Script On Server Hop
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  end
+  })
+
+    AddButton(Tab1o, {
+     Name = "Speed-X Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+  })
+
+    AddButton(Tab2o, {
+     Name = "Phantasm Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ATrainz/Phantasm/refs/heads/main/Games/TSB.lua"))()
+  end
+  })
+
+    AddButton(Tab3o, {
+     Name = "No-Lag Hub",
+    Callback = function()
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+
+local scripts = {
+    [126884695634066] = "https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/Garden/Garden-V1.lua",
+    [81440632616906] = "https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/DigEarth/V1.lua",
+}
+
+local url = scripts[game.PlaceId]
+if url then
+    loadstring(game:HttpGetAsync(url))()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/untitled.lua"))()
+end
+  end
+  })
+
+    AddButton(Tab3o, {
+     Name = "Speed-X Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+  })
+
+    AddButton(Tab4o, {
+     Name = "Speed-X Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+  })
+
+    AddButton(Tab4o, {
+     Name = "H4xScripts Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", true))()
+  end
+  })
+
+    AddButton(Tab4o, {
+     Name = "Speed-X Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
   end
   })
